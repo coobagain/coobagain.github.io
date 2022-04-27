@@ -1,0 +1,176 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>
+        OwO
+    </title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .letters {
+            font-size: 80px;
+        }
+
+        img {
+            filter: invert(97%) sepia(29%) saturate(13%) hue-rotate(233deg) brightness(101%) contrast(101%);
+            margin: 10px;
+            transition: 0.3s;
+        }
+
+        .letters {
+            color: #fff;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        #steam:hover {
+            filter: invert(22%) sepia(95%) saturate(1089%) hue-rotate(177deg) brightness(98%) contrast(95%);
+        }
+
+        #discord:hover {
+            filter: invert(32%) sepia(60%) saturate(2779%) hue-rotate(226deg) brightness(100%) contrast(94%);
+        }
+
+        #youtube:hover {
+            filter: invert(12%) sepia(83%) saturate(6645%) hue-rotate(359deg) brightness(101%) contrast(119%);
+        }
+
+        #github:hover {
+            filter: invert(94%) sepia(2%) saturate(3804%) hue-rotate(192deg) brightness(108%) contrast(83%);
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4000ff, 0 0 40px #4000ff, 0 0 50px #4000ff, 0 0 60px #4000ff, 0 0 70px #4000ff;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #6a00ff, 0 0 40px #6a00ff, 0 0 50px #6a00ff, 0 0 60px #6a00ff, 0 0 70px #6a00ff, 0 0 80px #6a00ff;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn ease 2s;
+            -webkit-animation: fadeIn ease 2s;
+            -moz-animation: fadeIn ease 2s;
+            -o-animation: fadeIn ease 2s;
+            -ms-animation: fadeIn ease 2s;
+        }
+
+        .fade-in:hover {
+            width: 55px;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- fuck css files all my homies hate css files -->
+    <div style="position: absolute; width: 100%; height: 100%; top: 40%;">
+        <div id="animationoutput" style="color: whitesmoke; display: flex; justify-content:center;"></div>
+        <!-- css decided it wanted to move all this shit 20px right so hence margin-left: -10px; css is retarded -->
+        <div
+            style="display: flex; width: 100%; justify-content:center !important; padding: 10px; position: fixed; bottom: 0; margin-left: -10px;">
+            <img onclick="benis()" id="discord" class="fade-in" src="/images/discord.svg" alt="" width="50px">
+            <a href="https://steamcommunity.com/id/cowopyy/"><img id="steam" class="fade-in" src="/images/steam.svg" alt="" width="50px"></a>
+            <a href="https://www.youtube.com/channel/UC-u6Sx1xnd5Rzt3iog2exgw"><img id="youtube" class="fade-in" src="/images/youtube.svg" alt="" width="50px"></a>
+            <a href="https://github.com/Coopyy"><img id="github" class="fade-in" src="/images/github.svg" alt="" width="50px"></a>
+        </div>
+    </div>
+
+
+    <canvas id="canvas"></canvas>
+
+    <script>
+        var balls = false;
+        function benis() {
+            if (!balls) {
+                finaltext = "Coopyy#0001"
+                const elemout = document.getElementById("animationoutput");
+
+                for (i = 0; i < 5; i++) {
+                    const outputpart = document.createElement("div");
+                    outputpart.classList.add("letters");
+                    elemout.appendChild(outputpart);
+                    outputlist = document.getElementsByClassName("letters");
+                }
+
+                text.push('#')
+                text.push('0')
+                text.push('0')
+                text.push('0')
+                text.push('1')
+                balls = true;
+            }
+        }
+    </script>
+
+    <script src="uhhh.js"></script>
+    <script src="shit.js"></script>
+    <script src="cock.js"></script>
+    <script src="fuck.js"></script>
+</body>
+
+</html>
